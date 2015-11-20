@@ -19,7 +19,7 @@ Then in your recipe you can use the task as follows:
 
 $recipe = new \Soy\Recipe();
 
-$recipe->component('default', function (\Soy\Task\GruntTask $gruntTask) {
+$recipe->component('default', function (\Soy\Grunt\RunTask $gruntTask) {
     $gruntTask
         ->setTask('scss')
         ->run();

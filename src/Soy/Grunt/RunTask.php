@@ -4,7 +4,7 @@ namespace Soy\Grunt;
 
 use Soy\Task\CliTask;
 
-class GruntTask extends CliTask
+class RunTask extends CliTask
 {
     /**
      * @var string
